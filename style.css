@@ -1299,12 +1299,20 @@ button.is_active span {
 		width: 100%;
 	}
 
-	#SubText {
-		position: relative;
-		width: auto;
+	.container {
+		left: 20%;
+		width: 80%;
 	}
 
 	.container p {
 		font-size: 2rem;
+	}
+
+	#SubText {
+		left: 60%;
+	}
+
+	#blob {
+		right: 20%;
 	}
 }
