@@ -141,8 +141,8 @@ body {
 #SubText {
 	font-size: 1rem;
 	position: absolute;
-	margin-top: -42vh;
-	left: 102vh;
+	top: 70%;
+	left: 50%;
 	z-index: 2;
 	font-family: Roboto;
 }
@@ -1223,9 +1223,6 @@ a {
 
 button {
 
-	position: absolute;
-	top: 50%;
-	left: 12px;
 	transform: translate(-50%, -50%);
 	width: 170px;
 	height: 40px;
@@ -1304,7 +1301,6 @@ button.is_active span {
 
 	#SubText {
 		position: relative;
-		left: 50%;
 		width: auto;
 	}
 
