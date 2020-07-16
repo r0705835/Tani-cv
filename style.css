@@ -1222,7 +1222,9 @@ a {
 }
 
 button {
-
+	position: absolute;
+	top: 70%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 170px;
 	height: 40px;
@@ -1295,6 +1297,8 @@ button.is_active span {
 /*Mobile Stuff*/
 
 @media screen and (max-width: 600px) {
+
+	/*Index page and menu*/
 	.container::before {
 		width: 100%;
 	}
@@ -1315,4 +1319,6 @@ button.is_active span {
 	#blob {
 		right: 20%;
 	}
+
+	/*About me page*/
 }
