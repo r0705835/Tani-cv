@@ -1386,6 +1386,7 @@ button.is_active span {
 		margin-left: 0%;
 		font-size: 3rem;
 		width: 75%;
+		height: 0px;
 	}
 
 	#timeline {
@@ -1394,6 +1395,44 @@ button.is_active span {
 		width: 75%;
 		height: 0%;
 		margin-top: 5%;
+	}
+
+	/* References page */
+
+	.home-title {
+		position: relative;
+	}
+	.home-title > #hd {
+		font-size: 2.2rem;
+	}
+
+	#projects ul {
+		position: relative;
+		top: 0%;
+		width: 75%;
+		margin-top: 20%;
+		left: 0%;
+		margin-left: 20.5%;
+	}
+
+	#projects li {
+		float: none;
+		height: auto;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	#projects li a {
+		position: relative;
+		float: none;
+		height: auto;
+		width: 100%;
+		margin: 0%;
+	}
+
+	#card {
+		width: 105%;
+		height: auto;
 	}
 
 }
