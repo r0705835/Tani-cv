@@ -1195,8 +1195,9 @@ a {
 }
 
 #hd3 {
+	position: absolute;
 	font-family: 'Anton', sans-serif;
-	margin-left: 42%;
+	left: 42%;
 	height: 100px;
 	width: 45%;
 	padding-top: 9%;
@@ -1321,4 +1322,56 @@ button.is_active span {
 	}
 
 	/*About me page*/
+
+	#hd3 {
+		font-size: 3rem;
+		left: 20%;
+		padding-top: 0%;
+		top: 5%;
+		width: 80%;
+		right: 5%;
+		height: auto;
+	}
+
+	#MainText {
+		left: 20%;
+		right: 1%;
+		top: 20%;
+		padding-bottom: 10px;
+	}
+
+	#MyPic {
+		width: auto;
+		display: none;
+	}
+
+	/*Achievements page*/
+
+	.word {
+		position: relative;
+		left: 22%;
+		top: 100%;
+		padding-top: 5%;
+		margin-left: 0%;
+	}
+
+	.word span {
+		font-size: 3rem;
+	}
+
+	.img-list {
+		position: relative;
+		margin-left: 19%;
+		margin-top: 5%;
+	}
+
+	.img-list li {
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.img-placeholder {
+		font-size: 1rem;
+	}
+
 }
