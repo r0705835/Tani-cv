@@ -1,3 +1,7 @@
+:root {
+	--main-color: #008080;
+}
+
 /*start_text*/
 html,
 body,
@@ -193,7 +197,7 @@ a {
 
 .container p span.typed-text {
 	font-weight: 950;
-	color: #008080;
+	color: var(--main-color);
 }
 
 .container p span.cursor {
@@ -236,7 +240,7 @@ a {
 #menu {
 	height: 100%;
 	position: fixed;
-	background-color: #008080;
+	background-color: var(--main-color);
 	width: 300px;
 	transition: 1000ms all cubic-bezier(0.19, 1, 0.22, 1);
 	transform: translateX(-100%);
@@ -268,7 +272,7 @@ a {
 
 #blob-path {
 	height: 100%;
-	fill: #008080;
+	fill: var(--main-color);
 }
 
 .hamburger {
@@ -506,7 +510,7 @@ a {
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
 	text-shadow:
-		8px 8px #008080,
+		8px 8px var(--main-color),
 		20px 20px #000000;
 }
 
@@ -1232,9 +1236,9 @@ button {
 	line-height: 1;
 	font-size: 18px;
 	letter-spacing: 1px;
-	border: 1px solid #008080;
+	border: 1px solid var(--main-color);
 	background: rgba(25, 25, 25, 0);
-	color: #008080;
+	color: var(--main-color);
 	border-radius: 40px;
 	cursor: pointer;
 	overflow: hidden;
@@ -1242,7 +1246,7 @@ button {
 }
 
 button:hover {
-	background: #008080;
+	background: var(--main-color);
 	color: #fff;
 }
 
@@ -1269,7 +1273,7 @@ button span {
 .success svg {
 	width: 20px;
 	height: 20px;
-	fill: #008080;
+	fill: var(--main-color);
 	transform-origin: 50% 50%;
 	transform: translateY(-50%) rotate(0deg) scale(0);
 	transition: all .35s;
