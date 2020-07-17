@@ -1324,19 +1324,19 @@ button.is_active span {
 	/*About me page*/
 
 	#hd3 {
+		position: relative;
 		font-size: 3rem;
-		left: 20%;
-		padding-top: 0%;
-		top: 5%;
-		width: 80%;
-		right: 5%;
+		left: 22%;
+		padding-top: 5%;
+		width: 75%;
 		height: auto;
 	}
 
 	#MainText {
-		left: 20%;
-		right: 1%;
-		top: 20%;
+		position: relative;
+		left: 22%;
+		margin-top: 5%;
+		width: 75%;
 		padding-bottom: 10px;
 	}
 
