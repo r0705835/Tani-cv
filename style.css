@@ -1419,8 +1419,8 @@ button.is_active span {
 		top: 0%;
 	}
 
-	.stats__list {
-		top: 0%;
+	.stats ul {
+		width: 100%;;
 	}
 
 	.stats__header {
