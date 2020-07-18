@@ -1428,8 +1428,8 @@ button.is_active span {
 	}
 
 	.stats__overlay-avg {
-		width: 50%;
-		height: 35%;
+		width: 200px;
+		height: 200px;
 		left: 60%;
 	}
 
