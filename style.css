@@ -1743,6 +1743,8 @@ margin-left:10%;
 
 	#SubText {
 		left: 60%;
+		top: 70%;
+		margin-top: 0px;
 	}
 
 	.contents {
@@ -1753,6 +1755,13 @@ margin-left:10%;
 	#blob {
 		right: 20%;
 	}
+
+	button {
+		position: absolute;
+		top: 70%;
+		left: 50%;
+	}
+	
 
 	/* About me page */
 
