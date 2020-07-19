@@ -1301,7 +1301,7 @@ button.is_active span {
 
 /* Mobile Stuff */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
 	/* Index page and menu */
 	.container::before {
