@@ -1481,3 +1481,29 @@ button.is_active span {
 	}
 
 }
+
+/* This is my screen resolution. You'll have to it to fit in between the ones you've made.*/
+@media screen and (min-width: 1280px) {
+	#ref #hd {
+		width: 53%;
+	}
+
+	#MyPic {
+		top: 21%;
+		height: auto;
+	}
+
+	.stats {
+		left: 20%;
+	}
+
+	#hd {
+		margin-left: 25%;
+		width: 51%;
+	}
+
+	#projects ul {
+		top: 40%;
+		left: 22%;
+	}
+}
